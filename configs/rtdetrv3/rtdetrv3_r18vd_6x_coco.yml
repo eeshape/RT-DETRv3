@@ -8,7 +8,7 @@ _BASE_: [
 
 weights: output/rtdetrv3_r18vd_6x_coco/model_final
 find_unused_parameters: True
-log_iter: 200
+log_iter: 50
 
 o2m_branch: True
 num_queries_o2m: 450
